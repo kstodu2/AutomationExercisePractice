@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationExerciseTestCases">
+    <test verbose="1" preserve-order="true" name="TestCase1">
+        <classes>
+            <class name="Register.TestCases.testCase1">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="navigateSignUpTest"/>
+                    <include name="fillOutSignUpTest"/>
+                    <include name="completeSignUpTest"/>
+                    <include name="verifyNewAccountTest"/>
+                    <include name="deleteCurrentAccountTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase2">
+        <classes>
+            <class name="Register.TestCases.testCase2">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="navigateSignUpTest"/>
+                    <include name="fillOutSignUpTest"/>
+                    <include name="completeSignUpTest"/>
+                    <include name="verifyNewAccountTest"/>
+                    <include name="logOutCurrentUserTest"/>
+                    <include name="startOfTestCase2"/>
+                    <include name="loggingInTest"/>
+                    <include name="enterCorrectCredentialTest"/>
+                    <include name="deleteCurrentAccountTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase3">
+        <classes>
+            <class name="Register.TestCases.testCase3">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="navigateSignUpTest"/>
+                    <include name="enterIncorrectLoginTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase4">
+        <classes>
+            <class name="Register.TestCases.testCase4">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="navigateSignUpTest"/>
+                    <include name="fillOutSignUpTest"/>
+                    <include name="completeSignUpTest"/>
+                    <include name="logOutCurrentUserTest"/>
+                    <include name="loggingInTest"/>
+                    <include name="enterCorrectCredentialTest"/>
+                    <include name="logoutUserTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase5">
+        <classes>
+            <class name="Register.TestCases.testCase5">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="navigateSignUpTest"/>
+                    <include name="accountExistsTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase6">
+        <classes>
+            <class name="Register.TestCases.testCase6">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="contactUsTest"/>
+                    <include name="formFillTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase7">
+        <classes>
+            <class name="Register.TestCases.testCase7">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="visitTestCaseTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase8">
+        <classes>
+            <class name="Register.TestCases.testCase8">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="clickProductPageTest"/>
+                    <include name="firstProductTest"/>
+                    <include name="firstProductDetailsTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase9">
+        <classes>
+            <class name="Register.TestCases.testCase9">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="clickProductPageTest"/>
+                    <include name="searchProductTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase10">
+        <classes>
+            <class name="Register.TestCases.testCase10">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="subscribeEmailTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase11">
+        <classes>
+            <class name="Register.TestCases.testCase11">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="cartTest"/>
+                    <include name="subscriptionCartTest"/>
+                    <include name="enterEmailInCartTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase12">
+        <classes>
+            <class name="Register.TestCases.testCase12">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="TwoProductsAddToCartTest"/>
+                    <include name="verifyProductsinCartTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase13">
+        <classes>
+            <class name="Register.TestCases.testCase13">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="visitProductTest"/>
+                    <include name="firstProductPageTest"/>
+                    <include name="setProductQuantityTest"/>
+                    <include name="continueToCart"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase14">
+        <classes>
+            <class name="Register.TestCases.testCase2">
+                <methods>
+                    <include name="startOfTestCase2"/>
+                    <include name="loggingInTest"/>
+                    <include name="enterCorrectCredentialTest"/>
+                    <include name="deleteCurrentAccountTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+            <class name="Register.TestCases.testCase14">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="visitProductTest"/>
+                    <include name="TwoProductsAddToCartTest"/>
+                    <include name="clickViewCartTest"/>
+                    <include name="proceedCheckOutInCartTest"/>
+                    <include name="checkOutRegisterTest"/>
+                    <include name="fillOutSignUpTest"/>
+                    <include name="completeSignUpTest"/>
+                    <include name="verifyNewAccountTest"/>
+                    <include name="visitAccountCartPageTest"/>
+                    <include name="proceedCheckOutInCartTest2"/>
+                    <include name="verifyCartAddressTest"/>
+                    <include name="setDeliveryCommentTest"/>
+                    <include name="paymentProcessTest"/>
+                    <include name="orderConfirmationTest"/>
+                    <include name="deleteUserAccountTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase15">
+        <classes>
+            <class name="Register.TestCases.testCase15">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="navigateSignUpTest"/>
+                    <include name="fillOutSignUpTest"/>
+                    <include name="completeSignUpTest"/>
+                    <include name="verifyNewAccountTest"/>
+                    <include name="visitProductTest"/>
+                    <include name="TwoProductsAddToCartTest"/>
+                    <include name="clickViewCartTest"/>
+                    <include name="proceedCheckOutInCartTest"/>
+                    <include name="verifyCartAddressTest"/>
+                    <include name="setDeliveryCommentTest"/>
+                    <include name="paymentProcessTest"/>
+                    <include name="orderConfirmationTest"/>
+                    <include name="deleteUserAccountTest"/>
+                    <include name="orderConfirmationTest"/>
+                    <include name="deleteUserAccountTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase16">
+        <classes>
+            <class name="Register.TestCases.testCase2">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="navigateSignUpTest"/>
+                    <include name="fillOutSignUpTest"/>
+                    <include name="completeSignUpTest"/>
+                    <include name="verifyNewAccount"/>
+                    <include name="logOutCurrentUserTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+            <class name="Register.TestCases.testCase16">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="visitLoginPage"/>
+                    <include name="loggingInTest"/>
+                    <include name="enterCorrectCredentialTest"/>
+                    <include name="visitProductTest"/>
+                    <include name="TwoProductsAddToCartTest"/>
+                    <include name="clickViewCartTest"/>
+                    <include name="proceedCheckOutInCartTest"/>
+                    <include name="verifyCartAddressTest"/>
+                    <include name="setDeliveryCommentTest"/>
+                    <include name="paymentProcessTest"/>
+                    <include name="orderConfirmationTest"/>
+                    <include name="deleteUserAccountTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase17">
+        <classes>
+            <class name="Register.TestCases.testCase17">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="visitProductTest"/>
+                    <include name="TwoProductsAddToCartTest"/>
+                    <include name="visitCartTest"/>
+                    <include name="deleteProductFromCartTest"/>
+                    <include name="amountOfItemsInCartTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase18">
+        <classes>
+            <class name="Register.TestCases.testCase18">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="visitProductTest"/>
+                    <include name="filterCategoryWomenTest"/>
+                    <include name="filterCategoryWomenDressTest"/>
+                    <include name="verifyCorrectFilterCategoryTest"/>
+                    <include name="filterCategoryMenTest"/>
+                    <include name="filterCategoryMenTshirt"/>
+                    <include name="verifyCorrectFilterCategoryMenTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase19">
+        <classes>
+            <class name="Register.TestCases.testCase19">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="visitProductTest"/>
+                    <include name="filterBrandsTest"/>
+                    <include name="filterBrandMadameTest"/>
+                    <include name="verifyCorrectFilterBrandTest"/>
+                    <include name="filterBrandBibaTest"/>
+                    <include name="verifyCorrectFilterBrand2Test"/>
+                    <include name="filterBrandsProductsDisplayTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase20">
+        <classes>
+            <class name="Register.TestCases.testCase1">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="navigateSignUpTest"/>
+                    <include name="fillOutSignUpTest"/>
+                    <include name="completeSignUpTest"/>
+                    <include name="verifyNewAccountTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+            <class name="Register.TestCases.testCase20">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="clickProductPageTest"/>
+                    <include name="searchProductTest"/>
+                    <include name="addFirstSearchedItemTest"/>
+                    <include name="visitCartTest"/>
+                    <include name="verifyAddedProductInCartTest"/>
+                    <include name="loginFromCartTest"/>
+                    <include name="loginTest"/>
+                    <include name="continueToCartTest"/>
+                    <include name="verifyAddedProductInCartAfterLogginTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase21">
+        <classes>
+            <class name="Register.TestCases.testCase21">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="visitProductTest"/>
+                    <include name="firstProductPageTest"/>
+                    <include name="setReviewNameTest"/>
+                    <include name="setReviewEmailTest"/>
+                    <include name="setReviewMessageTest"/>
+                    <include name="submitReviewTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase22">
+        <classes>
+            <class name="Register.TestCases.testCase22">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="verifyVisibleRecommendedTest"/>
+                    <include name="addToCartRandomRecommendedTest"/>
+                    <include name="viewCartTest"/>
+                    <include name="cartNotEmptyTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase23">
+        <classes>
+            <class name="Register.TestCases.testCase2">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="navigateSignUpTest"/>
+                    <include name="fillOutSignUpTest"/>
+                    <include name="completeSignUpTest"/>
+                    <include name="verifyNewAccountTest"/>
+                    <include name="logOutCurrentUserTest"/>
+                    <include name="startOfTestCase2"/>
+                    <include name="loggingInTest"/>
+                    <include name="enterCorrectCredentialTest"/>
+                    <include name="deleteCurrentAccountTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+            <class name="Register.TestCases.testCase23">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="navigateSignUpTest"/>
+                    <include name="fillOutSignUpTest"/>
+                    <include name="completeSignUpTest"/>
+                    <include name="verifyNewAccountTest"/>
+                    <include name="visitProductTest"/>
+                    <include name="TwoProductsAddToCartTest"/>
+                    <include name="clickViewCartTest"/>
+                    <include name="proceedCheckOutInCartTest"/>
+                    <include name="verifyCartDeliveryBillingAddressTest"/>
+                    <include name="deleteUserAccountTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase24">
+        <classes>
+            <class name="Register.TestCases.testCase24">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="visitProductTest"/>
+                    <include name="TwoProductsAddToCartTest"/>
+                    <include name="proceedCheckOutInCartTest"/>
+                    <include name="checkOutRegisterTest"/>
+                    <include name="fillOutSignUpTest"/>
+                    <include name="completeSignUpTest"/>
+                    <include name="verifyNewAccountTest"/>
+                    <include name="visitAccountCartPageTest"/>
+                    <include name="proceedCheckOutInCartTest2"/>
+                    <include name="verifyCartAddressTest"/>
+                    <include name="placeOrderTest"/>
+                    <include name="paymentProcessTest"/>
+                    <include name="orderConfirmationTest"/>
+                    <include name="deleteCurrentAccountTest"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase25">
+        <classes>
+            <class name="Register.TestCases.testCase25">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="scrollToTheBottomTest"/>
+                    <include name="scrollToTheBottomTest"/>
+                    <include name="verifySubscriptionWidget"/>
+                    <include name="clickArrowUpTest"/>
+                    <include name="verifyTopFrontPage"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true" name="TestCase26">
+        <classes>
+            <class name="Register.TestCases.testCase26">
+                <methods>
+                    <include name="visitHomePageTest"/>
+                    <include name="scrollToTheBottomTest"/>
+                    <include name="scrollToTheBottomTest"/>
+                    <include name="verifySubscriptionWidget"/>
+                    <include name="scrollUpTest"/>
+                    <include name="verifyTopFrontPage"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
