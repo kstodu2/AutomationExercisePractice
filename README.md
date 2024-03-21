@@ -14,4 +14,4 @@ Otherwise the constantly changing ad-popups will cause some of the tests to not 
 
 # Future improvements:
 Incorporate Jenkins to allow testing on different platforms or Operating Systems.
-Research more about preloading adblock before moving onto the tests or find a different way to block the ads.
+Research more about preloading adblock before executing the tests or find a different way to block the ads.
